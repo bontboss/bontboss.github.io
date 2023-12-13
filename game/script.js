@@ -40,7 +40,7 @@ function multiply() {
   if (clicks >= price) {
     multiplier += 1;
     price = Math.round(price * 2);
-    clicks = 0
+    clicks = -price
     const clicksDisplay = document.querySelector(".clicksDisplay");
   clicksDisplay.textContent = `${formatClicks(clicks)} clicks`;
   } else {
