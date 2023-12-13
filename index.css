@@ -1,0 +1,80 @@
+body {
+  position: relative;
+  color: white;
+  font-family: sans-serif;
+  background-color: rgb(10, 10, 10);
+  background-image: radial-gradient(#2b2b2b 1px, transparent 1px);
+  background-size: 50px 50px;
+  background-position: 0 0, 1px 1px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transition: background-size 0.3s ease;
+  margin:0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topbar {
+  background-color: #121212;
+  padding: 10px 0;
+}
+
+nav {
+  text-align: left;
+  padding-left: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  vertical-align: middle;
+  font-family: Segoe UI;
+  margin: auto;
+  transition: all 0.3s;
+}
+
+.logo {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #022055, #0056b3);
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.click {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #00CA89, #0099CA);
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  align-items:left;
+  font-size: 30px;
+  margin:10px;
+  cursor:pointer;
+  border:none;
+  display:flex;
+  align-self: flex-start;
+}
+
+.logo:hover {
+  font-size: 37px;
+}
